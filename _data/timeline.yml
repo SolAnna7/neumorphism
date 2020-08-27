@@ -17,45 +17,30 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: DBX Kft.
+  title-url: https://dbx.hu
+  date: May 2017 - Present
+  subtitle: Software Developer
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+    - tag: Java
+    - tag: Clojure
+    - tag: Kotlin
+    - tag: Spring
+    - tag: Hibernate
+    - tag: SQL
   timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+- title: DBX Kft.
+  title-url: https://dbx.hu
+  date: May 2014 – May 2017
+  subtitle: Junior Software Developer
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
+    - tag: Java
+    - tag: SQL
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
-  timeline-side: left
-
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
-  tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: Budapest University of Technology and Economics
+  title-url: https://www.bme.hu/?language=en
+  date: 2010 - 2015
+  subtitle: B.Sc. Computer Software Engineering
   timeline-side: left
