@@ -14,13 +14,13 @@ $font-size-base: 1rem !default;
 $font-size-h1: 2rem !default;
 $font-weight-strong: 600;
 $text-color: #fff !default;
-$bg-color: rgba(43, 45, 47, 1);
+$bg-color: rgb(22, 22, 22);
 $card-bg-color: linear-gradient(
   145deg,
   rgba(115, 115, 115, 0.15) 15%,
   rgba(43, 45, 47, 1) 80%
 );
-$primary-color: #ff073a;
+$primary-color: #ce2370;
 
 /* General */
 
@@ -60,9 +60,10 @@ a {
 }
 
 .highlight-title {
-  color: $primary-color;
-  text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
+  color: #fff;//$primary-color;
+  text-shadow:  0 0 2px #fff, 0 0 5px $primary-color, 0 0 15px $primary-color, 0 0 25px $primary-color, 0 0 30px $primary-color, 0 0 50px $primary-color;
 }
+
 
 .highlight-link {
   box-shadow: inset 0 -0.125rem 0 $primary-color;
@@ -107,33 +108,19 @@ a {
 }
 
 .neumorphism-button {
-  background: linear-gradient(
-    145deg,
-    rgba(100, 100, 105, 0.15) 15%,
-    rgba(33, 33, 33, 0.4) 80%
-  );
-  box-shadow: -4px -3px 2px 0 rgba(250, 250, 250, 0.13),
-    4px 4px 2px 0 rgba(0, 0, 0, 0.4);
+  background: $bg-color;
 }
 
 @mixin neumorphism-button-pressed {
-  background: linear-gradient(
-    150deg,
-    rgba(20, 20, 20, 0.4) 10%,
-    rgba(115, 115, 115, 0.15) 80%
-  );
-  box-shadow: 1px 1px 2px 0 rgba(210, 210, 210, 0.4),
-    -1px -1px 2px rgba(0, 0, 0, 0.4), inset 3px 3px 2px 0 rgba(0, 0, 0, 0.4),
-    inset -1px -2px 2px rgba(210, 210, 210, 0.4);
+  background: $bg-color;
 }
 
 .neumorphism-card {
-  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 1),
-    inset -2px -2px 4px rgba(99, 99, 99, 1);
+  background: $bg-color;
 }
 
 .neumorphism-card-big {
-  box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
+  background: $bg-color;
 }
 
 /* Preloader */
@@ -237,13 +224,20 @@ a {
   text-align: center;
 }
 
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .landing-title {
   left: 0;
   margin: 0.5rem;
   padding: 0.5rem;
   position: absolute;
   right: 0;
-  top: 40%;
+  top: 20%;
 }
 
 .landing-icons {
@@ -392,15 +386,15 @@ a {
   }
 
   div[skill-type="language"] {
-    color: #e84a5f;
+    color: #e166bc;
   }
 
   div[skill-type="framework"] {
-    color: #ff847c;
+    color: #e3a1ff;
   }
 
   div[skill-type="tool"] {
-    color: #fecea8;
+    color: #dcd9ff;
   }
 
   div[skill-weight="1"] {
@@ -714,7 +708,9 @@ a {
       width: 21%;
 
       &:hover {
-        letter-spacing: 0.25rem;
+         letter-spacing: 0.02rem;
+        //text-decoration: underline;
+        text-shadow: 0 0 1px #fff, 0 0 5px $primary-color;
       }
     }
 
