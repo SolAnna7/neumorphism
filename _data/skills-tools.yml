@@ -23,11 +23,17 @@
 - name: Blender
   weight: 2
 
-- name: Bash
-  weight: 1
-
 - name: Postman
   weight: 3
 
 - name: Leiningen
   weight: 1
+
+- name: Docker
+  weight: 2
+
+- name: Linux
+  weight: 2
+
+- name: Git Flow
+  weight: 3

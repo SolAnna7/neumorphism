@@ -1,0 +1,42 @@
+# > name: Name of your project
+# > descr: Description of your project
+# > demo: Link to your project
+# > tags: List of technologies you used in your projects
+#
+# Example of a project
+# - name: project X
+#   descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+#   demo: https://example.com/
+#   tags:
+#     - tag: MongoDB
+#     - tag: Express
+#     - tag: AngularJS
+#     - tag: Node
+
+- name: Conquerors of the Abyss
+  descr: "Dungeon Crawler RPG game. Heavy emphasis on dark atmosphere and procedural generation.<br>Used as a learning project for Unity and general game development.<br>Presentation is Work in Progress."
+  tags:
+    - tag: Indie Game
+    - tag: Dungeon Crawler
+    - tag: Unity
+    - tag: NoesisGUI
+    - tag: Aura2
+    - tag: Procedural Generation
+    - tag: TaurusDungeonGenerator
+    - tag: PiscesConfigLoader
+
+- name: TaurusDungeonGenerator
+  descr: "A graph based procedural dungeon generator for Unity <ul><li>Abstract graph structure definition</li><li>Store and load structures from config with PiscesConfigLoader</li><li>Main path and branch generation</li><li>Reusing dungeon plans by nesting</li><li>Add meta data using tags and properties</li></ul>"
+  github: https://github.com/SolAnna7/TaurusDungeonGenerator
+  demo: https://drive.google.com/drive/folders/1XDA1_g5tuvnb2khWiTpZuK7bcmDJAn89
+  tags:
+    - tag: Unity
+    - tag: Procedural Generation
+
+- name: PiscesConfigLoader
+  descr: "A configuration loader and reader tool for Unity <ul><li>Parse YAML files to object structure</li><li>Traverse the data tree</li><li>Immutable structure</li><li>Query simple and complex data types</li></ul>"
+  github: https://github.com/SolAnna7/PiscesConfigLoader
+  tags:
+    - tag: Unity
+    - tag: Yaml
+    - tag: Configuration

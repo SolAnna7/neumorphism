@@ -14,7 +14,7 @@ baseurl: "/neumorphism"
 username: Hidvégi Anna
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Java dev by day, Game dev by night
+typing_text: Java Dev by day, Game Dev by night
 # email: Your E-Mail address for the email button.
 email: anna.hidvegi.7+portfolio@gmail.com
 # For every social button you want to display, set your username or userid
@@ -34,7 +34,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Java dev by day, game dev by night, LGBTQ activist somewhere in between. <br> TODO
+about_me_description: Java (and Clojure, Kotlin, C#) Backend Developer with 6+ years of experience based in Budapest, Hungary.<br>Outside my day job I’m learning Game Development. Interested in both the technical (game logic, procedural generation, AI) and artistic (visual and gameplay design, storytelling) aspects of making video games and ways I can mix these fields together. My dream is to work in a small indie game development studio where I can use all of my skills together.<br>Also very interested in visual storytelling (writing and drawing comics) and I would like to pursue this sometimes in the future.<br>I’m heavily involved in social, especially LGBTQ activism.
 
 # SKILLS SECTION
 # show_skills_card:
@@ -65,11 +65,12 @@ show_projects_card: true
 # > setting this to false, will omit your listed projects
 show_projects: true
 # projects_title: The will be displayed as the title of your projects
-projects_title: Projects
+projects_work_title: Work Projects
+projects_hobby_title: Hobby Projects
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
-show_os_projects: true
+show_os_projects: false
 # os_projects_title: The will be displayed as the title of your open source projects
 os_projects_title: Open Source Projects
 
@@ -81,7 +82,7 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Write me on 
+contact_description: 
 
 # GITHUB-METADATA
 # Set this to your forked repository

@@ -44,6 +44,8 @@ h1 {
   font-size: $font-size-h1;
   font-weight: $font-weight-strong;
   line-height: 2rem;
+  font-variant: small-caps;
+  text-shadow:  0 0 5px $primary-color;
 }
 
 p {
@@ -53,6 +55,7 @@ p {
 a {
   color: $primary-color;
   text-decoration: none;
+  font-weight: bold;
 
   &:hover {
     color: $text-color;
@@ -72,6 +75,7 @@ a {
   display: inline-block;
   padding: 0.125rem 0.125rem;
   transition: all 0.2s ease-in-out;
+  font-weight: bold;
 
   &:hover {
     box-shadow: inset 0 -2rem 0 0 $primary-color;
@@ -589,6 +593,7 @@ a {
   display: inline-block;
   margin-bottom: 0.25rem;
   padding: 0.5rem;
+  color: #dcd9ff;
 }
 
 /* Contact Card */

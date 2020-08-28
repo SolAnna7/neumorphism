@@ -1,0 +1,45 @@
+# > name: Name of your project
+# > descr: Description of your project
+# > demo: Link to your project
+# > tags: List of technologies you used in your projects
+#
+# Example of a project
+# - name: project X
+#   descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+#   demo: https://example.com/
+#   tags:
+#     - tag: MongoDB
+#     - tag: Express
+#     - tag: AngularJS
+#     - tag: Node
+
+- name: Moby
+  descr: "Mocroservice based modular insurance system.<br>Medior/Senior Backend Developer position, worked on every part of the project.<br>Specificalli took part of developing the communication system, the reporting, the document generation, and plenty of business logic."
+  site: https://www.dbx.hu/en/termekek/moby/
+  tags:
+    - tag: Java
+    - tag: Kotlin
+    - tag: Clojure
+    - tag: Microservices
+    - tag: Spring
+    - tag: Hibernate
+    - tag: PostgreSQL
+    - tag: Reportserver
+    - tag: Docker
+
+- name: Kompot
+  descr: "Job queue and RPP engine for human use.<BR>Developed for synchron and asynchron communication and data transfer between Moby microservices."
+  github: https://github.com/dbx/kompot
+  tags:
+    - tag: Java
+    - tag: Redis
+
+- name: MABISZ Mars
+  descr: "Greenfield development and integration of a complete IT system.<BR>Worked on the project as Junior Backend Developer"
+  site: https://www.dbx.hu/en/project/mabisz/
+  tags:
+    - tag: Java
+    - tag: Hibernate
+    - tag: Java EE
+    - tag: JBPM
+    - tag: Microsoft SQL Server
