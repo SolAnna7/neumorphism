@@ -2,7 +2,7 @@
 
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
-title: Hidvégi Anna portfolio
+title: Hidvégi Anna
 # description: This will be meta HTML tag content. This can be ignored.
 description: Personal website powered by Jekyll
 # baseurl: The subpath of your site
@@ -34,7 +34,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Java (and Clojure, Kotlin, C#) Backend Developer with 6+ years of experience based in Budapest, Hungary.<br>Outside my day job I’m learning Game Development. Interested in both the technical (game logic, procedural generation, AI) and artistic (visual and gameplay design, storytelling) aspects of making video games and ways I can mix these fields together. My dream is to work in a small indie game development studio where I can use all of my skills together.<br>Also very interested in visual storytelling (writing and drawing comics) and I would like to pursue this sometimes in the future.<br>I’m heavily involved in social, especially LGBTQ activism.
+about_me_description: My name is Hidvégi Anna, I’m a software developer based in Budapest, Hungary. I have 6+ years of experience with Java backend development and insurance software.<br>Apart from my day job I’m learning game development in my free time. I study both the technical and the artistic/design aspects of making video games and ways I can mix these fields together. I’m especially focused on using procedural generation technologies while keeping the look and design feel hand made. My dream is to work in a small indie game development studio where I can use all of my skills together.<br>I’m also very interested in visual storytelling (writing and drawing comics) and I would like to pursue this in the future.<br>I’m heavily involved in in social activism, especially in projects concerning the LGBTQ+ community.
 
 # SKILLS SECTION
 # show_skills_card:
