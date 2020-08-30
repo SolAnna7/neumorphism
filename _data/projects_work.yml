@@ -14,7 +14,7 @@
 #     - tag: Node
 
 - name: Moby
-  descr: "Mocroservice based modular insurance system.<br>Medior/Senior Backend Developer position, worked on every part of the project.<br>Specificalli took part of developing the communication system, the reporting, the document generation, and plenty of business logic."
+  descr: "Microservice-based modular insurance system.<br>Medior/Senior Backend Developer position, worked on every part of the project.<br>Specifically took part in developing the communication system, the reporting, the document generation, and plenty of business logic."
   site: https://www.dbx.hu/en/termekek/moby/
   tags:
     - tag: Java
