@@ -14,7 +14,8 @@
 #     - tag: Node
 
 - name: Conquerors of the Abyss
-  descr: "Dungeon Crawler RPG game. Heavy emphasis on dark atmosphere and procedural generation.<br>Used as a learning project for Unity and general game development.<br>Presentation is Work in Progress."
+  descr: "Dungeon Crawler RPG game. Heavy emphasis on dark atmosphere and procedural generation.<br>Used as a learning project for Unity and general game development."
+  site: https://solanna7.github.io/sfg-site-2/projects/2020/11/11/CotA.html
   tags:
     - tag: Indie Game
     - tag: Dungeon Crawler
